@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Italiana&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&display=swap');
+/*  font-family: "Playfair Display", serif;*/
+/*font-family: "Italiana", sans-serif;*/
+:root{
+    --preto: #15191C;
+    --azul: #1D232A; 
+    --cinza: #95999C;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+body {
+    background-color: var(--azul);
+    color: white;
+    display: flex;
+}
+.main{
+    width: 100%;
+}
+.side-bar{
+    width: 204px;
+    background-color: var(--preto);
+    min-height: 100vh;
+}
+li{
+    list-style: none;
+    align-content: center;
+}
+.nav-list{
+    padding-left: 10%;
+    font-size: 16px; 
+    
+}
+.side-bar p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.nav-list a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--cinza);
+    font-size: 16px;
+    padding: 10px 15px;
+}
+.nav-list #atual{
+    border: white;
+}
+.topo {
+    display: flex;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.topo .column-1{
+    width: 75%;
+    font-size: 26px;
+}
+.topo .column-2{
+    display: flex;
+    justify-content: flex-end;
+}
+.topo .column-2 div{
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+}
+.sub {
+    display: flex;
+    padding: 1rem 0rem;
+    margin: 0rem 2rem;
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+.sub .column-1{
+    width: 63%;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.sub .column-2{
+    display: flex;
+}
+.sub input{
+    padding: 10px 25px;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    padding: 2rem ;
+    height: 400px;
+
+}
+.linhas{
+    background-color: white;
+    width: 50%;
+}
+.barras {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
