@@ -2,7 +2,7 @@
 
 ## Resultado 
 
-<img src="./public/assets/Captura%20de%20pantalla%202025-04-09%20225908.png" >
+<img src="./public/assets/Captura%20de%20pantalla%202025-04-11%20002217.png" >
 
 
 ## Crie uma página HTML e utilize a biblioteca "Chart.JS" como foi explicado, criando uma dashboard como a imagem abaixo:
