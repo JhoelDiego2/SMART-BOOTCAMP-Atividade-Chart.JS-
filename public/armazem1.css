@@ -5,10 +5,6 @@
     padding: 0;
     margin: 0;
 }
-a{
-    all: unset;
-    cursor: pointer;
-}
 body {
     background-color: #1D232A;
     color: white;
@@ -22,10 +18,6 @@ body {
     background-color:  #15191C;
     min-height: 100vh;
 }
-li{
-    list-style: none;
-    align-content: center;
-}
 .nav-list{
     padding-left: 10%;
     font-size: 16px; 
@@ -33,8 +25,11 @@ li{
 }
 .side-bar p{
     font-size: 1.5rem;
-    text-align: center;
+    text-align: start;
     padding-bottom: 2.5rem;
+}
+#mensagem {
+    text-align: center;
 }
 
 .nav-list a{
